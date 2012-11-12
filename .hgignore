@@ -26,3 +26,6 @@ UpgradeLog.XML
 # backups and stuff
 *.orig
 Backup/
+# nuget packages
+packages/
+*.nupkg
