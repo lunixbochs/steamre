@@ -66,6 +66,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Management" />
     <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\ClientMsg.cs" />
@@ -120,6 +121,7 @@
     <Compile Include="Steam3\Handlers\SteamUserStats\SteamUserStats.cs" />
     <Compile Include="Steam3\SteamClient\CallbackMgr\CallbackMgr.cs" />
     <Compile Include="Steam3\WebAPI\WebAPI.cs" />
+    <Compile Include="Steam3\WebAPI\WebLogin.cs" />
     <Compile Include="Types\ChecksumData.cs" />
     <Compile Include="Types\JobID.cs" />
     <Compile Include="Types\DepotManifest.cs" />
